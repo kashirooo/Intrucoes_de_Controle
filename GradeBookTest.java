@@ -12,7 +12,7 @@ public class GradeBookTest {
         GradeBook curso = new GradeBook(null);
 
 
-        System.out.printf("Insira o nome do curso:");
+        System.out.printf("Insira o nome do curso: ");
         String cursin = input.nextLine();
         curso.setNomeCurso(cursin);
 
